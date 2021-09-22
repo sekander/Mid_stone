@@ -1,0 +1,387 @@
+﻿  Bullet.cpp
+  Enemy.cpp
+  Game.cpp
+G:\2D_ENgINe\TileMap.hpp(34,67): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(34,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(35,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(35,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(36,79): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(36,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(37,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(37,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(40,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(40,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(41,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(41,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(42,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(42,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(43,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(43,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\Game.cpp(12,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+G:\2D_ENgINe\Game.cpp(26,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+G:\2D_ENgINe\Game.cpp(50,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GameOverState.cpp
+G:\2D_ENgINe\TileMap.hpp(34,67): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(34,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(35,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(35,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(36,79): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(36,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(37,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(37,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(40,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(40,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(41,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(41,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(42,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(42,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(43,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(43,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\GameOverState.cpp(67,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\2D_ENgINe\GameOverState.cpp(74,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\2D_ENgINe\GameOverState.cpp(84,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\2D_ENgINe\GameOverState.cpp(83,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\2D_ENgINe\GameOverState.cpp(93,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\2D_ENgINe\GameOverState.cpp(92,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  GameState.cpp
+G:\2D_ENgINe\TileMap.hpp(34,67): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(34,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(35,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(35,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(36,79): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(36,57): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(37,73): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(37,51): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(40,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(40,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(41,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(41,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(42,82): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(42,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(43,76): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+G:\2D_ENgINe\TileMap.hpp(43,53): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  GameWorld.cpp
+G:\2D_ENgINe\GameWorld.cpp(447,63): warning C4244: 'argument': conversion from 'double' to 'sf::Int32', possible loss of data
+G:\2D_ENgINe\GameWorld.cpp(388,58): warning C4101: 'level_5': unreferenced local variable
+G:\2D_ENgINe\GameWorld.cpp(388,22): warning C4101: 'level_1': unreferenced local variable
+G:\2D_ENgINe\GameWorld.cpp(388,49): warning C4101: 'level_4': unreferenced local variable
+G:\2D_ENgINe\GameWorld.cpp(388,40): warning C4101: 'level_3': unreferenced local variable
+G:\2D_ENgINe\GameWorld.cpp(388,31): warning C4101: 'level_2': unreferenced local variable
+G:\2D_ENgINe\GameWorld.cpp(389,22): warning C4101: 'tap': unreferenced local variable
+G:\2D_ENgINe\GameWorld.cpp(491,32): warning C4018: '<': signed/unsigned mismatch
+G:\2D_ENgINe\GameWorld.cpp(539,32): warning C4018: '<': signed/unsigned mismatch
+  Gun.cpp
+  LoadingGameObjects.cpp
+G:\2D_ENgINe\LoadingGameObjects.cpp(21,25): warning C4101: 'gw': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(26,67): warning C4101: 'pApp': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(26,56): warning C4101: 'pProcess': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(26,74): warning C4101: 'pLineFormat': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(78,29): warning C4101: 'gw': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(83,67): warning C4101: 'pApp': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(83,56): warning C4101: 'pProcess': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(83,74): warning C4101: 'pLineFormat': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(138,29): warning C4101: 'bw': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(144,67): warning C4101: 'pApp': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(144,56): warning C4101: 'pProcess': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(144,74): warning C4101: 'pLineFormat': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(356,29): warning C4101: 'gw': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(361,67): warning C4101: 'pApp': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(361,56): warning C4101: 'pProcess': unreferenced local variable
+G:\2D_ENgINe\LoadingGameObjects.cpp(361,74): warning C4101: 'pLineFormat': unreferenced local variable
+  Main_Player.cpp
+  SplashState.cpp
+  entity.cpp
+  entity_manager.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1792 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  COME_ON_NOW.vcxproj -> C:\Users\turnh\source\repos\COME_ON_NOW\Release\COME_ON_NOW.exe
