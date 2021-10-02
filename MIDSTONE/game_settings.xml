@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Splash_State>
+<head><version>1.0</version></head>
+	<body>
+    		<tx>
+	<param  key=NEWkirbySTAR
+		   		file_name="Resources/res/red.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=32
+		   		sprite_HEIGHT=32
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=100
+		   		sprite_Y_POS=100
+		    	sprite_ANGLE=0
+	    		/>
+
+	<param  key=NEWkirbySTA
+		   		file_name="Resources/res/red.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=32
+		   		sprite_HEIGHT=32
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=150
+		   		sprite_Y_POS=100
+		    	sprite_ANGLE=0
+	    		/>
+
+	
+		<param  key=NEWkirbyST
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=200
+		   		sprite_Y_POS=95
+		    	sprite_ANGLE=0
+	    		/>			
+
+
+
+
+
+
+			</tx>
+
+	</body>
+</Splash_State>
+
+
+
+<Main_Menu_State>
+<head><version>1.0</version></head>
+	<body>
+    		<tx>
+
+		
+		<param  key=NEWkirbySTAR
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=200
+		   		sprite_Y_POS=95
+		    	sprite_ANGLE=0
+	    		/>
+
+
+
+				<param  key=settings
+		   		file_name="Resources/res/Setting_Button.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=500
+		   		sprite_HEIGHT=200
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=200
+		   		sprite_Y_POS=305
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param  key=exit
+		   		file_name="Resources/res/Exit_button.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=209
+		   		sprite_HEIGHT=154
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=200
+		   		sprite_Y_POS=405
+		    	sprite_ANGLE=0
+	    		/>
+
+
+			
+
+
+
+
+
+			</tx>
+
+	</body>
+</Main_Menu_State>
+
+
+<GameWorld>
+<head><version>1.0</version></head>
+	<body>
+    		<gw>
+	    		
+
+		<param  key=kirby
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		dynamic=true 
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=-95
+		    	sprite_ANGLE=0
+	    		/>
+
+
+					<param  key=kirby_player
+		   		file_name="Resources/res/kirby_player.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=32
+		   		sprite_HEIGHT=32
+		   		dynamic=true 
+		   		sprite_X_FRAMES=11
+		   		sprite_Y_FRAMES=7
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=-95
+		    	sprite_ANGLE=0
+	    		/>
+
+					<param  key=gohan
+		   		file_name="Resources/res/gohan.gif"
+		   		source_x=0
+		   		source_y=1
+		   		sprite_WIDTH=47
+		   		sprite_HEIGHT=80
+		   		dynamic=true 
+		   		sprite_X_FRAMES=12
+		   		sprite_Y_FRAMES=6
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=-95
+		    	sprite_ANGLE=0
+	    		/>
+
+
+
+
+
+
+				<param  key=pl
+		   		file_name="Resources/res/sprite_sheet.png"
+		   		source_x=0 
+		   		source_y=0
+		   		sprite_WIDTH=33
+		   		sprite_HEIGHT=32 
+		   		dynamic=true 
+		   		sprite_X_FRAMES=3
+		   		sprite_Y_FRAMES=4
+		   		sprite_X_POS=55
+		   		sprite_Y_POS=-395
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+				<param  key=peach
+		   		file_name="Resources/res/new_peach.png"
+		   		source_x=0 
+		   		source_y=0
+		   		sprite_WIDTH=42
+		   		sprite_HEIGHT=70 
+		   		dynamic=true 
+		   		sprite_X_FRAMES=14
+		   		sprite_Y_FRAMES=2
+		   		sprite_X_POS=155
+		   		sprite_Y_POS=-395
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+
+
+
+	    	
+			</gw>
+
+			<pw>
+
+
+		
+
+				<param  key=red
+		   		file_name="Resources/res/red.png"
+		   		source_x=0 
+		   		source_y=0
+		   		sprite_WIDTH=31
+		   		sprite_HEIGHT=32 
+		   		dynamic=true 
+		   		sprite_X_FRAMES=3
+		   		sprite_Y_FRAMES=4
+		   		sprite_X_POS=105
+		   		sprite_Y_POS=-479
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+
+    		
+			
+			</pw>
+
+
+			<bw>
+
+
+			<param  key=bullet0
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+			<param	key=bullet1
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+		<param	key=bullet2
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+			<param	key=bullet3
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+			<param	key=bullet4
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+				<param	key=bullet5
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+			<param	key=bullet6
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+				<param	key=bullet7
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+			
+
+						<param	key=bullet8
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+			<param	key=bullet9
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+			<param	key=bullet10
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+			<param	key=bullet11
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+			<param	key=bullet12
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+			<param	key=bullet13
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+			<param	key=bullet14
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+				<param	key=bullet15
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+				<param	key=bullet16
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+				<param	key=bullet17
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet18
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet19
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet20
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet22
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet23
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet24
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet25
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet26
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet27
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet28
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet29
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet30
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet31
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet32
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet33
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet34
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet35
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet36
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet37
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet38
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet39
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet40
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet41
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+				<param	key=bullet42
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=8
+		   		sprite_HEIGHT=8
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=-10
+		   		sprite_Y_POS=0
+		    	sprite_ANGLE=0
+	    		/>
+
+
+
+			</bw>
+
+			<gun>
+
+
+			<param	key=gun0
+		   		file_name="Resources/res/ship.png"
+		   		source_x=0 
+		   		source_y=0 
+		   		sprite_WIDTH=16
+		   		sprite_HEIGHT=16
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=100
+		   		sprite_Y_POS=-400
+		    	sprite_ANGLE=0
+	    		/>
+
+			
+			</gun>
+
+
+
+
+
+
+
+
+
+
+
+   	</body>
+</GameWorld>
+
+<Game_Over_State>
+<head><version>1.0</version></head>
+	<body>
+    		<tx>
+
+
+				<param  key=NEWkirbyGAMEOVER
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=95
+		    	sprite_ANGLE=0
+	    		/>
+
+
+
+
+				<param  key=NEWkirbyGAMEOVE
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=-100
+		    	sprite_ANGLE=0
+	    		/>
+
+
+				<param  key=NEWkirbyGAME
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=120
+		    	sprite_ANGLE=0
+	    		/>
+
+
+
+				<param  key=NEWkirbyGA
+		   		file_name="Resources/res/kirby.png"
+		   		source_x=4
+		   		source_y=4
+		   		sprite_WIDTH=38
+		   		sprite_HEIGHT=36
+		   		sprite_X_FRAMES=8
+		   		sprite_Y_FRAMES=12
+		   		sprite_X_POS=20
+		   		sprite_Y_POS=200
+		    	sprite_ANGLE=0
+	    		/>
+
+
+			</tx>
+
+	</body>
+</Game_Over_State>
+
+
