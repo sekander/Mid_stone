@@ -6,68 +6,8 @@
 	</head>
 	<body>
 		<tx>
-			<param  key='NEWkirbySTAR'
-						file_name="Resources/res/red.png"
-						source_x="0"
-						source_y="0"
-						sprite_WIDTH="32"
-						sprite_HEIGHT="32"
-						sprite_X_FRAMES="8"
-						sprite_Y_FRAMES="12"
-						sprite_X_POS="100"
-						sprite_Y_POS="100"
-						sprite_ANGLE="0"
-	    		/>
-
-
-
-
-			<param  key="NEWkirbySTA"
-						file_name="Resources/res/red.png"
-						source_x="0"
-						source_y="0"
-						sprite_WIDTH="32"
-						sprite_HEIGHT="32"
-						sprite_X_FRAMES="8"
-						sprite_Y_FRAMES="12"
-						sprite_X_POS="150"
-						sprite_Y_POS="100"
-						sprite_ANGLE="0"
-	    		/>
-
-
-			<param  key="NEWkirbyST"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="200"
-					sprite_Y_POS="95"
-					sprite_ANGLE="0"
-	    		/>
-			<param  key="NEWkirbyS"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="300"
-					sprite_Y_POS="95"
-					sprite_ANGLE="0"
-	    		/>
-
-
-
-
-
-
+				
 		</tx>
-
 	</body>
 </Splash_State>
 
@@ -79,92 +19,103 @@
 	</head>
 	<body>
 		<tx>
-
-
-
-
-	
-			
-
-			<param  key="settings"
-			file_name="Resources/res/Setting_Button.png"
-			source_x="0"
-			source_y="0"
-			sprite_WIDTH="500"
-			sprite_HEIGHT="200"
-			sprite_X_FRAMES="1"
-			sprite_Y_FRAMES="1"
-			sprite_X_POS="579"
-			sprite_Y_POS="505"
-			sprite_ANGLE="0"
+		
+			<param 	key=shooter
+		   		file_name="Resources/res/shooter.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=501
+		   		sprite_HEIGHT=109
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=100
+		   		sprite_Y_POS=80
+		    	sprite_ANGLE=0
 	    		/>
-
-
+				
+			<param  key=mania
+		   		file_name="Resources/res/mania.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=500
+		   		sprite_HEIGHT=110
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=750
+		   		sprite_Y_POS=80
+		    	sprite_ANGLE=0
+	    		/>
+				
+			<param  key=2d
+		   		file_name="Resources/res/2d.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=170
+		   		sprite_HEIGHT=140
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=600
+		   		sprite_Y_POS=600
+		    	sprite_ANGLE=0
+	    		/>
+		
+			<param  key="settings"
+				file_name="Resources/res/Setting_Button.png"
+				source_x="0"
+				source_y="0"
+				sprite_WIDTH="100"
+				sprite_HEIGHT="100"
+				sprite_X_FRAMES="1"
+				sprite_Y_FRAMES="1"
+				sprite_X_POS="400"
+				sprite_Y_POS="350"
+				sprite_ANGLE="0"
+	    		/>
 
 			<param  key="SETTINGS"
-			file_name="Resources/res/Setting_Button.png"
-			source_x="0"
-			source_y="0"
-			sprite_WIDTH="500"
-			sprite_HEIGHT="200"
-			sprite_X_FRAMES="1"
-			sprite_Y_FRAMES="1"
-			sprite_X_POS="579"
-			sprite_Y_POS="1273"
-			sprite_ANGLE="0"
+				file_name="Resources/res/Setting_Button.png"
+				source_x="0"
+				source_y="0"
+				sprite_WIDTH="100"
+				sprite_HEIGHT="100"
+				sprite_X_FRAMES="1"
+				sprite_Y_FRAMES="1"
+				sprite_X_POS="400"
+				sprite_Y_POS="350"
+				sprite_ANGLE="0"
 	    		/>
 
-
 			<param  key="exit"
-			file_name="Resources/res/Exit_button.png"
-			source_x="0"
-			source_y="0"
-			sprite_WIDTH="209"
-			sprite_HEIGHT="154"
-			sprite_X_FRAMES="1"
-			sprite_Y_FRAMES="1"
-			sprite_X_POS="579"
-			sprite_Y_POS="605"
-			sprite_ANGLE="0"
+				file_name="Resources/res/Exit_button.png"
+				source_x="0"
+				source_y="0"
+				sprite_WIDTH="100"
+				sprite_HEIGHT="100"
+				sprite_X_FRAMES="1"
+				sprite_Y_FRAMES="1"
+				sprite_X_POS="850"
+				sprite_Y_POS="350"
+				sprite_ANGLE="0"
 	    		/>
 
 			<param  key="exit2"
-		   		file_name="Resources/res/Exit_button.png"
-		   		source_x="0"
-		   		source_y="0"
-		   		sprite_WIDTH="209"
-		   		sprite_HEIGHT="154"
-		   		sprite_X_FRAMES="1"
-		   		sprite_Y_FRAMES="1"
-		   		sprite_X_POS="579"
-		   		sprite_Y_POS="1373"
-		    	sprite_ANGLE="0"
-	    		/>
-
-
-
-
-
+				file_name="Resources/res/Exit_button.png"
+				source_x="0"
+				source_y="0"
+				sprite_WIDTH="100"
+				sprite_HEIGHT="100"
+				sprite_X_FRAMES="1"
+				sprite_Y_FRAMES="1"
+				sprite_X_POS="850"
+				sprite_Y_POS="350"
+				sprite_ANGLE="0"
+				/>
 
 		</tx>
 
 		<gw>
 
-	
 
-			<param  key="kirby"
-		   		file_name="Resources/res/kirby.png"
-		   		source_x="4"
-		   		source_y="4"
-		   		sprite_WIDTH="38"
-		   		sprite_HEIGHT="36"
-		   		dynamic="true"
-		   		sprite_X_FRAMES="8"
-		   		sprite_Y_FRAMES="12"
-		   		sprite_X_POS="20"
-		   		sprite_Y_POS="-95"
-		    	sprite_ANGLE="0"
-	    		/>
 
 		</gw>
 
@@ -180,106 +131,110 @@
 	<body>
 		<gw>
 
-			<param  key="background"
-								file_name="Resources/res/purple_bk.jpg"
+			<param  key="blackbg"
+								file_name="Resources/res/blackbg.jpg"
 								source_x="0"
 								source_y="0"
-								sprite_WIDTH="800"
-								sprite_HEIGHT="600"
+								sprite_WIDTH="1366"
+								sprite_HEIGHT="768"
+								dynamic="false"
+								sprite_X_FRAMES="1"
+								sprite_Y_FRAMES="1"
+								sprite_X_POS="-1366"
+								sprite_Y_POS="50"
+								sprite_ANGLE="0"
+	    		/>
+
+			<param  key="background"
+								file_name="Resources/res/background01.jpg"
+								source_x="0"
+								source_y="0"
+								sprite_WIDTH="1366"
+								sprite_HEIGHT="768"
 								dynamic="false"
 								sprite_X_FRAMES="1"
 								sprite_Y_FRAMES="1"
 								sprite_X_POS="0"
-								sprite_Y_POS="0"
+								sprite_Y_POS="50"
 								sprite_ANGLE="0"
 	    		/>
 
-			<param  key="background_1"
-								file_name="Resources/res/purple_bk.jpg"
+			<param  key="background_01"
+								file_name="Resources/res/background01.jpg"
 								source_x="0"
 								source_y="0"
-								sprite_WIDTH="800"
-								sprite_HEIGHT="600"
+								sprite_WIDTH="1366"
+								sprite_HEIGHT="768"
 								dynamic="false"
 								sprite_X_FRAMES="1"
 								sprite_Y_FRAMES="1"
-								sprite_X_POS="800"
-								sprite_Y_POS="0"
+								sprite_X_POS="1366"
+								sprite_Y_POS="50"
 								sprite_ANGLE="0"
 	    		/>
 
-
-			<param  key="background_2"
-								file_name="Resources/res/purple_bk.jpg"
+			<param  key="floor_01"
+								file_name="Resources/res/floorP.png"
 								source_x="0"
 								source_y="0"
-								sprite_WIDTH="800"
-								sprite_HEIGHT="600"
+								sprite_WIDTH="640"
+								sprite_HEIGHT="35"
 								dynamic="false"
 								sprite_X_FRAMES="1"
 								sprite_Y_FRAMES="1"
-								sprite_X_POS="1600"
-								sprite_Y_POS="0"
+								sprite_X_POS="5"
+								sprite_Y_POS="-460"
 								sprite_ANGLE="0"
 	    		/>
-
-			<param  key="kirby"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="0"
-					sprite_Y_POS="-280"
-					sprite_ANGLE="0"
+				
+			<param  key="wall_01"
+								file_name="Resources/res/wall2.png"
+								source_x="0"
+								source_y="0"
+								sprite_WIDTH="35"
+								sprite_HEIGHT="80"
+								dynamic="false"
+								sprite_X_FRAMES="1"
+								sprite_Y_FRAMES="1"
+								sprite_X_POS="635"
+								sprite_Y_POS="-420"
+								sprite_ANGLE="0"
 	    		/>
+					
+				
+			<param  key="floor_02"
+								file_name="Resources/res/floorP.png"
+								source_x="0"
+								source_y="0"
+								sprite_WIDTH="370"
+								sprite_HEIGHT="35"
+								dynamic="false"
+								sprite_X_FRAMES="1"
+								sprite_Y_FRAMES="1"
+								sprite_X_POS="640"
+								sprite_Y_POS="-390"
+								sprite_ANGLE="0"
+	    		/>			
+			<!--	
+			<param  key="floor_03"
+								file_name="Resources/res/floor01.jpg"
+								source_x="0"
+								source_y="0"
+								sprite_WIDTH="640"
+								sprite_HEIGHT="32"
+								dynamic="false"
+								sprite_X_FRAMES="1"
+								sprite_Y_FRAMES="1"
+								sprite_X_POS="655"
+								sprite_Y_POS="-380"
+								sprite_ANGLE="0"
+	    		/>		
+			
+				
 
-			<param  key="kirby1"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="38"
-					sprite_Y_POS="-280"
-					sprite_ANGLE="0"
-	    		/>
+				
 
-			<param  key="kirby2"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="76"
-					sprite_Y_POS="-280"
-					sprite_ANGLE="0"
-	    		/>
-
-			<param  key="kirby3"
-		file_name="Resources/res/kirby.png"
-		source_x="4"
-		source_y="4"
-		sprite_WIDTH="38"
-		sprite_HEIGHT="36"
-		dynamic="true"
-		sprite_X_FRAMES="8"
-		sprite_Y_FRAMES="12"
-		sprite_X_POS="114"
-		sprite_Y_POS="-280"
-		sprite_ANGLE="0"
-	    		/>
-
-			<!--
+							
 
 
 
@@ -300,114 +255,17 @@
 -->
 
 
-			<param  key="kirby4"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="1715"
-					sprite_Y_POS="-217"
-					sprite_ANGLE="0"
-	    		/>
 
-			<param  key="kirby6"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="38"
-					sprite_Y_POS="-280"
-					sprite_ANGLE="0"
-	    		/>
-
-			<param  key="kirby7"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="76"
-					sprite_Y_POS="-280"
-					sprite_ANGLE="0"
-	    		/>
-
-			<param  key="kirby8"
-					file_name="Resources/res/kirby.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="38"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="114"
-					sprite_Y_POS="-280"
-					sprite_ANGLE="0"
-				/>
-				
-					<param  key="tile1"
-					file_name="Resources/res/land.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="645"
-					sprite_HEIGHT="36"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="12"
-					sprite_Y_POS="-477"
-					sprite_ANGLE="0"
-				/>
-					
-
-					<param  key="tile2"
-					file_name="Resources/res/land.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="368"
-					sprite_HEIGHT="98"
-					dynamic="true"
-					sprite_X_FRAMES="8"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="655"
-					sprite_Y_POS="-415"
-					sprite_ANGLE="0"
-				/>		
-
-					<param  key="tile3"
-					file_name="Resources/res/ramp.png"
-					source_x="4"
-					source_y="4"
-					sprite_WIDTH="510"
-					sprite_HEIGHT="300"
-					dynamic="true"
-					sprite_X_FRAMES="18"
-					sprite_Y_FRAMES="12"
-					sprite_X_POS="1000"
-					sprite_Y_POS="-300"
-					sprite_ANGLE="0"
-		/>					
-		
-	
-		
-		
-		
 		</gw>
+
+
+
+
+
 
 		<edge>
 
-
+				
 			<param
 				key = "wall"
 				xo = "0"
@@ -415,9 +273,7 @@
 				xd = "0"
 				yd = "0"
 				/>
-
-
-
+		
 			<param
 				key = "floor"
 				xo = "0"
@@ -425,7 +281,6 @@
 				xd = "640"
 				yd = "-462"
 				/>
-
 			
 			<param
 				key = "wall_1"
@@ -443,70 +298,18 @@
 				xd = "1000"
 				yd = "-400"
 				/>
+
 			<param
 
-				key = "box_wall"
-				xo = "1050"
-				yo = "-350"
-				xd = "1050"
-				yd = "-300"
+				key = "wall_2"
+				xo = "1000"
+				yo = "-400"
+				xd = "1000"
+				yd = "-700"
 				/>
-			
-		<param
 
-				key = "box_floor"
-				xo = "1050"
-				yo = "-300"
-				xd = "1100"
-				yd = "-300"
-				/>
-		
 			<param
 
-				key = "box_wall"
-				xo = "1100"
-				yo = "-350"
-				xd = "1100"
-				yd = "-300"
-				/>
-				
-				<param
-				
-				key = "box_wall_1"
-				xo = "1700"
-				yo= "-200"
-				xd = "1700"
-				yd = "-250"
-				/>
-					<param
-				
-				key = "box_floor_1"
-				xo = "1700"
-				yo= "-250"
-				xd = "1850"
-				yd = "-250"
-				/>
-				<param
-				
-				key = "box_wall_2"
-				xo = "1850"
-				yo= "-250"
-				xd = "1850"
-				yd = "-250"
-				/>
-				
-				<param
-				
-				
-				key = "box_floor_2"
-				xo = "1850"
-				yo= "-200"
-				xd = "1700"
-				yd = "-200"
-				/>
-				<param
-				
-				
 				key = "floor_2"
 				xo = "1000"
 				yo = "-700"
@@ -633,7 +436,7 @@
 
 
 			<param  key="red"
-			file_name="Resources/res/red.png"
+			file_name="Resources/res/baldy.png"
 			source_x="0"
 			source_y="0"
 			sprite_WIDTH="31"
@@ -763,63 +566,7 @@ sprite_ANGLE="0"
 		<tx>
 
 
-			<param  key="NEWkirbyGAMEOVER"
-			file_name="Resources/res/kirby.png"
-			source_x="4"
-			source_y="4"
-			sprite_WIDTH="38"
-			sprite_HEIGHT="36"
-			sprite_X_FRAMES="8"
-			sprite_Y_FRAMES="12"
-			sprite_X_POS="20"
-			sprite_Y_POS="95"
-			sprite_ANGLE="0"
-	    		/>
-
-
-
-
-			<param  key="NEWkirbyGAMEOVE"
-			file_name="Resources/res/kirby.png"
-			source_x="4"
-			source_y="4"
-			sprite_WIDTH="38"
-			sprite_HEIGHT="36"
-			sprite_X_FRAMES="8"
-			sprite_Y_FRAMES="12"
-			sprite_X_POS="20"
-			sprite_Y_POS="-100"
-			sprite_ANGLE="0"
-	    		/>
-
-
-			<param  key="NEWkirbyGAME"
-			file_name="Resources/res/kirby.png"
-			source_x="4"
-			source_y="4"
-			sprite_WIDTH="38"
-			sprite_HEIGHT="36"
-			sprite_X_FRAMES="8"
-			sprite_Y_FRAMES="12"
-			sprite_X_POS="20"
-			sprite_Y_POS="120"
-			sprite_ANGLE="0"
-	    		/>
-
-
-
-			<param  key="NEWkirbyGA"
-			file_name="Resources/res/kirby.png"
-			source_x="4"
-			source_y="4"
-			sprite_WIDTH="38"
-			sprite_HEIGHT="36"
-			sprite_X_FRAMES="8"
-			sprite_Y_FRAMES="12"
-			sprite_X_POS="20"
-			sprite_Y_POS="200"
-			sprite_ANGLE="0"
-	    		/>
+			
 
 
 		</tx>
