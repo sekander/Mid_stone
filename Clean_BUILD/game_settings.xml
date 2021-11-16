@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Splash_State>
+	<head>
+		<version>1.0</version>
+	</head>
+	<body>
+		<tx>
+			<param  key='NEWkirbySTAR'
+						file_name="Resources/res/red.png"
+						source_x="0"
+						source_y="0"
+						sprite_WIDTH="32"
+						sprite_HEIGHT="32"
+						sprite_X_FRAMES="8"
+						sprite_Y_FRAMES="12"
+						sprite_X_POS="100"
+						sprite_Y_POS="100"
+						sprite_ANGLE="0"
+	    		/>
+
+
+
+
+			<param  key="NEWkirbySTA"
+						file_name="Resources/res/red.png"
+						source_x="0"
+						source_y="0"
+						sprite_WIDTH="32"
+						sprite_HEIGHT="32"
+						sprite_X_FRAMES="8"
+						sprite_Y_FRAMES="12"
+						sprite_X_POS="150"
+						sprite_Y_POS="100"
+						sprite_ANGLE="0"
+	    		/>
+
+
+			<param  key="NEWkirbyST"
+					file_name="Resources/res/kirby.png"
+					source_x="4"
+					source_y="4"
+					sprite_WIDTH="38"
+					sprite_HEIGHT="36"
+					sprite_X_FRAMES="8"
+					sprite_Y_FRAMES="12"
+					sprite_X_POS="200"
+					sprite_Y_POS="95"
+					sprite_ANGLE="0"
+	    		/>
+			<param  key="NEWkirbyS"
+					file_name="Resources/res/kirby.png"
+					source_x="4"
+					source_y="4"
+					sprite_WIDTH="38"
+					sprite_HEIGHT="36"
+					sprite_X_FRAMES="8"
+					sprite_Y_FRAMES="12"
+					sprite_X_POS="300"
+					sprite_Y_POS="95"
+					sprite_ANGLE="0"
+	    		/>
+
+
+
+
+
+
+		</tx>
+
+	</body>
+</Splash_State>
+
+
+
+<Main_Menu_State>
+	<head>
+		<version>1.0</version>
+	</head>
+	<body>
+		<tx>
+
+
+
+
+
+
+			<param  key="settings"
+			file_name="Resources/res/Setting_Button.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="500"
+			sprite_HEIGHT="200"
+			sprite_X_FRAMES="1"
+			sprite_Y_FRAMES="1"
+			sprite_X_POS="579"
+			sprite_Y_POS="505"
+			sprite_ANGLE="0"
+	    		/>
+
+
+
+			<param  key="SETTINGS"
+			file_name="Resources/res/Setting_Button.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="500"
+			sprite_HEIGHT="200"
+			sprite_X_FRAMES="1"
+			sprite_Y_FRAMES="1"
+			sprite_X_POS="579"
+			sprite_Y_POS="1273"
+			sprite_ANGLE="0"
+	    		/>
+
+
+			<param  key="exit"
+			file_name="Resources/res/Exit_button.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="209"
+			sprite_HEIGHT="154"
+			sprite_X_FRAMES="1"
+			sprite_Y_FRAMES="1"
+			sprite_X_POS="579"
+			sprite_Y_POS="605"
+			sprite_ANGLE="0"
+	    		/>
+
+			<param  key="exit2"
+		   		file_name="Resources/res/Exit_button.png"
+		   		source_x="0"
+		   		source_y="0"
+		   		sprite_WIDTH="209"
+		   		sprite_HEIGHT="154"
+		   		sprite_X_FRAMES="1"
+		   		sprite_Y_FRAMES="1"
+		   		sprite_X_POS="579"
+		   		sprite_Y_POS="1373"
+		    	sprite_ANGLE="0"
+	    		/>
+
+
+
+
+
+
+
+		</tx>
+
+		<gw>
+
+
+			<param  key="kirby"
+		   		file_name="Resources/res/kirby.png"
+		   		source_x="4"
+		   		source_y="4"
+		   		sprite_WIDTH="38"
+		   		sprite_HEIGHT="36"
+		   		dynamic="true"
+		   		sprite_X_FRAMES="8"
+		   		sprite_Y_FRAMES="12"
+		   		sprite_X_POS="20"
+		   		sprite_Y_POS="-95"
+		    	sprite_ANGLE="0"
+	    		/>
+
+		</gw>
+
+
+	</body>
+</Main_Menu_State>
+
+
+<GameWorld>
+	<head>
+		<version>1.0</version>
+	</head>
+	<body>
+		<gw>
+
+			
+
+			<param  key="kirby"
+					file_name="Resources/res/kirby.png"
+					source_x="4"
+					source_y="4"
+					sprite_WIDTH="38"
+					sprite_HEIGHT="36"
+					dynamic="true"
+					sprite_X_FRAMES="8"
+					sprite_Y_FRAMES="12"
+					sprite_X_POS="0"
+					sprite_Y_POS="-280"
+					sprite_ANGLE="0"
+	    		/>
+
+			<param  key="kirby1"
+					file_name="Resources/res/kirby.png"
+					source_x="4"
+					source_y="4"
+					sprite_WIDTH="38"
+					sprite_HEIGHT="36"
+					dynamic="true"
+					sprite_X_FRAMES="8"
+					sprite_Y_FRAMES="12"
+					sprite_X_POS="38"
+					sprite_Y_POS="-280"
+					sprite_ANGLE="0"
+	    		/>
+
+			<param  key="kirby2"
+					file_name="Resources/res/kirby.png"
+					source_x="4"
+					source_y="4"
+					sprite_WIDTH="38"
+					sprite_HEIGHT="36"
+					dynamic="true"
+					sprite_X_FRAMES="8"
+					sprite_Y_FRAMES="12"
+					sprite_X_POS="76"
+					sprite_Y_POS="-280"
+					sprite_ANGLE="0"
+	    		/>
+
+			<param  key="kirby3"
+		file_name="Resources/res/kirby.png"
+		source_x="4"
+		source_y="4"
+		sprite_WIDTH="38"
+		sprite_HEIGHT="36"
+		dynamic="true"
+		sprite_X_FRAMES="8"
+		sprite_Y_FRAMES="12"
+		sprite_X_POS="114"
+		sprite_Y_POS="-280"
+		sprite_ANGLE="0"
+	    		/>
+
+			<!--
+
+
+
+			<param  key=floor
+		   		file_name="Resources/res/floor.png"
+		   		source_x=0
+		   		source_y=0
+		   		sprite_WIDTH=640
+		   		sprite_HEIGHT=32
+		   		dynamic=true 
+		   		sprite_X_FRAMES=1
+		   		sprite_Y_FRAMES=1
+		   		sprite_X_POS=0
+		   		sprite_Y_POS=-480
+		    	sprite_ANGLE=0
+	    		/>
+
+-->
+
+
+
+		</gw>
+
+
+
+
+
+
+		<edge>
+
+
+			<param
+				key = "wall"
+				xo = "0"
+				yo = "-462"
+				xd = "0"
+				yd = "0"
+				/>
+
+
+
+			<param
+				key = "floor"
+				xo = "0"
+				yo = "-462"
+				xd = "640"
+				yd = "-462"
+				/>
+
+			<param
+				key = "wall_1"
+				xo = "640"
+				yo = "-462"
+				xd = "640"
+				yd = "-400"
+				/>
+
+			<param
+
+				key = "floor_1"
+				xo = "640"
+				yo = "-400"
+				xd = "1000"
+				yd = "-400"
+				/>
+
+			<param
+
+				key = "wall_2"
+				xo = "1000"
+				yo = "-400"
+				xd = "1000"
+				yd = "-700"
+				/>
+
+			<param
+
+				key = "floor_2"
+				xo = "1000"
+				yo = "-700"
+				xd = "1500"
+				yd = "-700"
+				/>
+
+			<param
+
+				key = "ramp_2"
+				xo = "1500"
+				yo = "-700"
+				xd = "1800"
+				yd = "-500"
+				/>
+
+
+
+
+
+		</edge>
+
+
+
+		<em>
+
+
+
+
+
+
+
+			<param  key="enemygtori"
+			file_name="Resources/res/tori.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="32"
+			sprite_HEIGHT="48"
+			dynamic="true"
+			sprite_X_FRAMES="4"
+			sprite_Y_FRAMES="4"
+		   		
+			sprite_X_POS="1300"
+			sprite_Y_POS="-600"
+		    	
+			sprite_ANGLE="0"
+				
+			enemy_walking_distance="50"
+			attack_square_x = "500"
+			attack_square_y = "2000"
+				
+			bullet_speed_x = "100"
+			bullet_speed_y = "0"
+				
+			enemy_speed_x = "20"
+			enemy_speed_y = "0"
+	    		/>
+
+
+
+			<param  key="enemygtori1"
+			file_name="Resources/res/tori.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="32"
+			sprite_HEIGHT="48"
+			dynamic="true"
+			sprite_X_FRAMES="4"
+			sprite_Y_FRAMES="4"
+			sprite_X_POS="1600"
+			sprite_Y_POS="-440"
+			sprite_ANGLE="0"
+			enemy_walking_distance="50"
+			attack_square_x = "400"
+			attack_square_y = "200"
+			bullet_speed_x = "100"
+			bullet_speed_y = "0"
+			enemy_speed_x = "100"
+			enemy_speed_y = "0"
+
+	    		/>
+
+
+
+
+
+
+
+			<!--
+	
+		<param  key=enemygohan
+		   		file_name="Resources/res/gohan.gif"
+		   		source_x=0
+		   		source_y=1
+		   		sprite_WIDTH=47
+		   		sprite_HEIGHT=80
+		   		dynamic=true 
+		   		sprite_X_FRAMES=12
+		   		sprite_Y_FRAMES=6
+		   		sprite_X_POS=50
+		   		sprite_Y_POS=-440
+		    	sprite_ANGLE=0
+	    		/>
+
+
+
+	-->
+
+
+
+
+
+
+
+
+		</em>
+
+
+
+
+		<pw>
+
+
+
+
+			<param  key="red"
+			file_name="Resources/res/red.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="31"
+			sprite_HEIGHT="32"
+			dynamic="true"
+			sprite_X_FRAMES="3"
+			sprite_Y_FRAMES="4"
+			sprite_X_POS="100"
+			sprite_Y_POS="-440"
+			sprite_ANGLE="0"
+	    		/>
+
+
+
+
+
+		</pw>
+
+
+		<bw>
+
+
+			<param  key="bullet0"
+		   		file_name="Resources/res/bullet-s_b.png"
+		   		source_x="0"
+		   		source_y="0"
+		   		sprite_WIDTH="13"
+		   		sprite_HEIGHT="8"
+		   		dynamic="true"
+		   		sprite_X_FRAMES="1"
+		   		sprite_Y_FRAMES="1"
+		   		sprite_X_POS="-10"
+		   		sprite_Y_POS="10"
+		    	sprite_ANGLE="0"
+	    		/>
+
+
+		</bw>
+
+		<e_bw>
+
+
+			<param  key="e_bullet0"
+				file_name="Resources/res/enemy_bullet.png"
+				source_x="0"
+				source_y="0"
+				sprite_WIDTH="13"
+				sprite_HEIGHT="8"
+				dynamic="true"
+				sprite_X_FRAMES="1"
+				sprite_Y_FRAMES="1"
+				sprite_X_POS="-10"
+				sprite_Y_POS="10"
+				sprite_ANGLE="0"
+	    			/>
+
+
+		</e_bw>
+
+		<gun>
+
+
+			<param	key="p_gun"
+		   		file_name="Resources/res/gun.png"
+		   		source_x="0"
+		   		source_y="0"
+		   		sprite_WIDTH="33"
+		   		sprite_HEIGHT="18"
+		   		dynamic="true"
+		   		sprite_X_FRAMES="1"
+		   		sprite_Y_FRAMES="1"
+		   		sprite_X_POS="100"
+		   		sprite_Y_POS="-400"
+		    	sprite_ANGLE="0"
+	    		/>
+
+			<param	key="e_gun"
+			file_name="Resources/res/ship.png"
+			source_x="0"
+			source_y="0"
+			sprite_WIDTH="16"
+			sprite_HEIGHT="16"
+			dynamic="true"
+			sprite_X_FRAMES="1"
+			sprite_Y_FRAMES="1"
+			sprite_X_POS="100"
+			sprite_Y_POS="-400"
+			sprite_ANGLE="0"
+	    		/>
+
+			<param	key="e_gun2"
+file_name="Resources/res/ship.png"
+source_x="0"
+source_y="0"
+sprite_WIDTH="16"
+sprite_HEIGHT="16"
+dynamic="true"
+sprite_X_FRAMES="1"
+sprite_Y_FRAMES="1"
+sprite_X_POS="200"
+sprite_Y_POS="-400"
+sprite_ANGLE="0"
+	    		/>
+
+
+
+		</gun>
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+</GameWorld>
+
+<Game_Over_State>
+	<head>
+		<version>1.0</version>
+	</head>
+	<body>
+		<tx>
+
+
+			<param  key="NEWkirbyGAMEOVER"
+			file_name="Resources/res/kirby.png"
+			source_x="4"
+			source_y="4"
+			sprite_WIDTH="38"
+			sprite_HEIGHT="36"
+			sprite_X_FRAMES="8"
+			sprite_Y_FRAMES="12"
+			sprite_X_POS="20"
+			sprite_Y_POS="95"
+			sprite_ANGLE="0"
+	    		/>
+
+
+
+
+			<param  key="NEWkirbyGAMEOVE"
+			file_name="Resources/res/kirby.png"
+			source_x="4"
+			source_y="4"
+			sprite_WIDTH="38"
+			sprite_HEIGHT="36"
+			sprite_X_FRAMES="8"
+			sprite_Y_FRAMES="12"
+			sprite_X_POS="20"
+			sprite_Y_POS="-100"
+			sprite_ANGLE="0"
+	    		/>
+
+
+			<param  key="NEWkirbyGAME"
+			file_name="Resources/res/kirby.png"
+			source_x="4"
+			source_y="4"
+			sprite_WIDTH="38"
+			sprite_HEIGHT="36"
+			sprite_X_FRAMES="8"
+			sprite_Y_FRAMES="12"
+			sprite_X_POS="20"
+			sprite_Y_POS="120"
+			sprite_ANGLE="0"
+	    		/>
+
+
+
+			<param  key="NEWkirbyGA"
+			file_name="Resources/res/kirby.png"
+			source_x="4"
+			source_y="4"
+			sprite_WIDTH="38"
+			sprite_HEIGHT="36"
+			sprite_X_FRAMES="8"
+			sprite_Y_FRAMES="12"
+			sprite_X_POS="20"
+			sprite_Y_POS="200"
+			sprite_ANGLE="0"
+	    		/>
+
+
+		</tx>
+
+	</body>
+</Game_Over_State>
+
+
