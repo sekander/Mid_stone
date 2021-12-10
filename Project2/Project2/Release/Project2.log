@@ -1,0 +1,121 @@
+﻿  AssetManager.cpp
+  Bullet.cpp
+  Enemy.cpp
+  Entity.cpp
+  Entity_Manager.cpp
+  Game.cpp
+C:\Users\turnh\Documents\Project2\Project2\Game.cpp(12,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\Game.cpp(26,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\Game.cpp(52,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GameOverState.cpp
+C:\Users\turnh\Documents\Project2\Project2\GameOverState.cpp(108,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\GameOverState.cpp(107,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\GameOverState.cpp(117,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\GameOverState.cpp(116,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  GameState.cpp
+  GameWorld.cpp
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(446,63): warning C4244: 'argument': conversion from 'double' to 'sf::Int32', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(387,58): warning C4101: 'level_5': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(387,22): warning C4101: 'level_1': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(387,49): warning C4101: 'level_4': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(387,40): warning C4101: 'level_3': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(387,31): warning C4101: 'level_2': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(388,22): warning C4101: 'tap': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(490,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\turnh\Documents\Project2\Project2\GameWorld.cpp(538,32): warning C4018: '<': signed/unsigned mismatch
+  Gun.cpp
+  HUD.cpp
+C:\Users\turnh\Documents\Project2\Project2\HUD.cpp(17,30): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\turnh\Documents\Project2\Project2\HUD.cpp(16,52): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\turnh\Documents\Project2\Project2\HUD.cpp(26,77): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\turnh\Documents\Project2\Project2\HUD.cpp(26,46): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  InputManager.cpp
+C:\Users\turnh\Documents\Project2\Project2\InputManager.cpp(11,135): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\turnh\Documents\Project2\Project2\InputManager.cpp(11,103): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\turnh\Documents\Project2\Project2\InputManager.cpp(11,75): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+C:\Users\turnh\Documents\Project2\Project2\InputManager.cpp(11,51): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  level.cpp
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(47,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(136,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(137,33): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(185,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(185,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(293,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(313,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\turnh\Documents\Project2\Project2\level.cpp(315,33): warning C4018: '<': signed/unsigned mismatch
+  LoadingGameObjects.cpp
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(21,20): warning C4101: 'gw': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(26,67): warning C4101: 'pApp': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(26,55): warning C4101: 'pProcess': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(26,75): warning C4101: 'pLineFormat': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(83,67): warning C4101: 'pApp': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(83,55): warning C4101: 'pProcess': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(83,75): warning C4101: 'pLineFormat': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(188,17): warning C4101: 'bw': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(194,67): warning C4101: 'pApp': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(194,55): warning C4101: 'pProcess': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(194,75): warning C4101: 'pLineFormat': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(537,20): warning C4101: 'gw': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(542,67): warning C4101: 'pApp': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(542,55): warning C4101: 'pProcess': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\LoadingGameObjects.cpp(542,75): warning C4101: 'pLineFormat': unreferenced local variable
+  main.cpp
+  MainMenuState.cpp
+C:\Users\turnh\Documents\Project2\Project2\MainMenuState.cpp(191,13): warning C4101: 'max': unreferenced local variable
+C:\Users\turnh\Documents\Project2\Project2\MainMenuState.cpp(191,8): warning C4101: 'min': unreferenced local variable
+  Main_Player.cpp
+  SplashState.cpp
+  StateMachine.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2145 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Project2.vcxproj -> C:\Users\turnh\Documents\Project2\Release\Project2.exe
